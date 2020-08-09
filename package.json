@@ -1,0 +1,25 @@
+{
+  "name": "fl_bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/fl_styles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/fl_styles.scss css/fl_styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geofftobin71/fl_bulma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geofftobin71/fl_bulma/issues"
+  },
+  "homepage": "https://github.com/geofftobin71/fl_bulma#readme",
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  }
+}
